@@ -1,9 +1,6 @@
-# Construção-profissional-html
-Projeto prático de HTML e CSS com foco em estruturação e boas práticas.
-
 # Construção Profissional do HTML
 
-Projeto prático desenvolvido com foco em HTML e CSS, aplicando conceitos de estruturação, semântica e boas práticas.
+Projeto prático desenvolvido com foco em HTML, CSS e JavaScript, aplicando conceitos de estruturação, semântica e boas práticas.
 
 ## 📌 Descrição
 Este projeto consiste em um formulário de contato criado como exercício prático a partir dos estudos em HTML e CSS.  
