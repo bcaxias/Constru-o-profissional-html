@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário de Contato</h1>
+
+        <form id="formContato">
+
+            <div>
+                <label for="nome">Digite seu nome: </label>
+                <input type="text" id="nome" required> <!--Required é um campo obrigatório para o usuário digitar-->
+            </div>
+
+            <div>
+                <label for="email">Digite seu email: </label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="mensagem">Digite sua mensagem: </label>
+                <textarea id="mensagem"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+            <section aria-live="polite">
+            <p id="res"></p>
+            </section>
+        </form>
+    </main>
+
+<script src="javascript.js"></script>
+</body>
+</html>
+
+<!--arial-live: Avisa o usuário quando o conteúdo acabar.
+"polite: Avisa, mas sem interromper o usuário."-->

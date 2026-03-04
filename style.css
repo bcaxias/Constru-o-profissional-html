@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif; /*Define fonte do texto*/
+    background-color: #f4f4f4; /*Define a cor de fundo da página inteira*/
+    padding: 40px; /*Cria espaço interno a borda da tela e o conteúdo */
+}
+main {
+    max-width: 500px; /*Limita a largura do conteúdo*/
+    margin: auto; /*Centraliza o elemento horizontalmente*/
+    background-color: #fff; /*Cor de fundo do bloco principal*/
+    padding: 30px; 
+    border-radius: 8px; /*Arredonda os cantos da caixa*/
+}
+
+h1 {
+    text-align: center; /*Alinha o texto*/
+    margin-bottom: 20px; /*Cria espaço abaixo do título*/
+}
+
+form div {
+    margin-bottom: 15px; /*Cria espaçamento entre os campos do formulário*/
+}
+
+label {
+    display: block; /*Faz o label ocupar a linha inteira. Input vai para baixo automaticamente*/
+    margin-bottom: 5px; /*Espaço entre label e input*/
+    font-weight: bold; /*Deixa o texto negrito*/
+}
+
+input,
+textarea {
+    width: 100%; /*Campo ocupa toda a largura disponível*/
+    padding: 8px;  /*Espaço interno onde o usuário digita*/
+    box-sizing: border-box; /*Faz o padding não aumentar o tamanho do elemento*/
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc; /*Cor do botão*/
+    color: white; /*Car do texto*/
+    border-radius: 4px; /*Remove a borda padrão*/
+    cursor: pointer; /*Muda o cursor para mãozinha*/
+}
+
+button:hover { /*:hover: Estado quando o mouse passa por cima*/
+    background-color: #005fa3; /*Cria o efeito visual de interação*/
+}
+
+#res {
+    margin-top: 15px; /*Espaço acima da mensagem*/
+    color: green; /*Cor do texto*/
+    font-weight: bold; /*Texto em negrito para destacar*/
+}
